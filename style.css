@@ -1,0 +1,15 @@
+h2 {color : green;}
+
+body{
+    background-image: url("../images/hackerman.png");
+    background-size: cover;
+}
+
+<style>
+.box {
+    background-color: rgb(211, 18, 18);
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
