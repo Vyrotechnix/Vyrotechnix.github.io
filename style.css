@@ -1,15 +1,61 @@
-h2 {color : green;}
+@font-face
+    {
+    font-family: "Blue_Ocean";
+    src:url("fonts/BLUE_OCEAN.ttf");
+    }
+@font-face {
+    font-family:"Uertas_Regular" ;
+    src: url("Fonts/Uertas_Regular.ttf");
+}
+@font-face {
+    font-family:"Mad_Hacker";
+    src: url("fonts/Mad_Hacker.ttf");
+}
+
+h4 {
+    font-family:"Mad_Hacker"; ;
+    font-size: 50px;
+    color: rgb(196, 231, 44);
+
+
+
+}
+.box2 {
+    background-color:rgb(24, 106, 79);
+    width: 600px;
+    border: 25px solid aqua;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+
+h1 {
+    font-family: "Blue_Ocean";
+    font-size: 50px;
+    color: greenyellow;
+}
+
+h3 {font-family:"Uertas_Regular" ;
+    font-size: 25px;
+    color : rgb(196, 231, 44);
+}
 
 body{
-    background-image: url("../images/hackerman.png");
+    background-image: url("images/hackerman.png");
     background-size: cover;
 }
 
-<style>
+
 .box {
     background-color: rgb(211, 18, 18);
-    width: 300px;
-    border: 25px solid green;
+    width: 600px;
+    border: 25px solid aqua;
     padding: 25px;
     margin: 25px;
+}
+p {
+    font-family: "Blue_Ocean";
+    font-size: 27px;
+    color: yellow;
 }
