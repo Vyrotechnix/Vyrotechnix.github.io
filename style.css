@@ -1,61 +1,74 @@
-@font-face
-    {
-    font-family: "Blue_Ocean";
-    src:url("fonts/BLUE_OCEAN.ttf");
-    }
+@font-face{
+    font-family: "PollerOne";
+    src: url("fonts/PollerOne_Regular.ttf")
+}
+
 @font-face {
-    font-family:"Uertas_Regular" ;
-    src: url("Fonts/Uertas_Regular.ttf");
+    font-family: "Lazlezar";
+    src: url("fonts/Lalezar_Regular.ttf")
 }
+
 @font-face {
-    font-family:"Mad_Hacker";
-    src: url("fonts/Mad_Hacker.ttf");
+    font-family: "PixelifySans";
+    src: url("fonts/PixelSans.ttf")
 }
 
-h4 {
-    font-family:"Mad_Hacker"; ;
-    font-size: 50px;
-    color: rgb(196, 231, 44);
-
-
-
+@font-face {
+    font-family: "PoetsenOne_Regular";
+    src: url("fonts/PoetsenOne_Regular.ttf")
 }
-.box2 {
-    background-color:rgb(24, 106, 79);
-    width: 600px;
-    border: 25px solid aqua;
-    padding: 25px;
-    margin: 25px;
+
+@font-face {
+    font-family: "PTSans_Bold";
+    src: url("fonts/PTSans_Bold.ttf")
 }
 
 
-
-h1 {
-    font-family: "Blue_Ocean";
-    font-size: 50px;
-    color: greenyellow;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-h3 {font-family:"Uertas_Regular" ;
-    font-size: 25px;
-    color : rgb(196, 231, 44);
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D;
 }
 
-body{
-    background-image: url("images/hackerman.png");
-    background-size: cover;
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
 }
 
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
 
-.box {
-    background-color: rgb(211, 18, 18);
-    width: 600px;
-    border: 25px solid aqua;
-    padding: 25px;
-    margin: 25px;
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
 }
-p {
-    font-family: "Blue_Ocean";
-    font-size: 27px;
-    color: yellow;
-}
+
+</style>
+</head>
+<body>
+
+<button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+
+</body>
+</html>
